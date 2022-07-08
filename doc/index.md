@@ -111,7 +111,7 @@ Finally, run `distrobuilder` to create the container image. We are using the `bu
 sudo $HOME/go/bin/distrobuilder build-lxd ubuntu.yaml
 ```
 
-If the command is successful, you will get an output similar to the following. The `lxd.tar.xz` file is the description of the container image. The `rootfs.squasfs` file is the root filesystem (rootfs) of the container image. The set of these two files is the _container image_.
+If the command is successful, you will get an output similar to the following. The `lxd.tar.xz` file is the description of the container image. The `rootfs.squashfs` file is the root filesystem (rootfs) of the container image. The set of these two files is the _container image_.
 
 ```bash
 $ ls -l
